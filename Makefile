@@ -7,6 +7,7 @@ default:
 	echo "svgtoreact complete"
 	./node_modules/.bin/babel dist -d dist
 	echo "babel complete"
+	rm index.js
 	touch index.js
 	echo "index.js created"
 	chmod +x generate_index.sh && ./generate_index.sh
