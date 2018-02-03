@@ -4,8 +4,7 @@
   "description": "Open iconic React version",
   "main": "index.js",
   "scripts": {
-    "preinstall": "./configure",
-    "install": "make && make install"
+    "prepublish": "make"
   },
   "author": "vaeum",
   "license": "MIT",
